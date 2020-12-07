@@ -34,7 +34,7 @@ export default function App() {
       </h1>
       <hr />
       <h2>Holiday destinations in South India.</h2>
-      <h3> Choose the states to know my favourte places.</h3>
+      <h3> Choose the states to know my favourite places.</h3>
       <div>
         {listOfStates.map((state) => {
           return (
