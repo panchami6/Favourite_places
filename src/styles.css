@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Inria+Sans&family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Condiment", cursive;
+  font-family: "Inria Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: #e8e4e3;
+}
+
+.App {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.buttons {
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  font-size: large;
+  background-color: #aaa3ab;
+}
+
+.lowerArea {
+  text-align: left;
+}
+
+.lowerArea ul {
+  padding-left: 0rem;
+  padding-right: 5rem;
+}
+
+.visit {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  background-color: #aaa3ab;
+}
+
+.name {
+  font-size: larger;
+}
