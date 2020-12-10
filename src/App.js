@@ -20,8 +20,8 @@ var listOfStates = Object.keys(placesDb);
 
 export default function App() {
   var [selectedState, setState] = useState("Karnataka");
-  function onClickHandler(state) {
-    setState(state);
+  function onClickHandler(selectedState) {
+    setState(selectedState);
   }
   return (
     <div className="App">
